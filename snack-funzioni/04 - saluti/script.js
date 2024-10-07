@@ -5,9 +5,15 @@ const name = 'Mario';
 
 // Dichiara la funzione qui.
 
+function saluti(name) {
+    console.log(`Ciao ${name}`); 
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
+saluti('Mario')
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
+
+
