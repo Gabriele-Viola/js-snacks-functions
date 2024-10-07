@@ -11,6 +11,8 @@ function namesFilter (array, chart){
         const elements = array[i];
         if (elements.includes(chart)) {
             element.push(elements)
+        }else if (element == 0) {
+            return `No word starts with ${chart}`
         }
     }
     return element.join(", ")
