@@ -12,6 +12,7 @@ function saluti(name) {
 // Invoca la funzione qui e stampa il risultato in console
 
 saluti('Mario')
+saluti('gabriele')
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
